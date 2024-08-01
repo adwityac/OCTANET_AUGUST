@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #f0f0f0 0%, #e0f7fa 100%); 
+}
+
+header {
+    background: transparent; 
+    padding: 0; 
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    background: #00796b; 
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav h1 {
+    font-size: 2em;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #b2dfdb; 
+}
+
+.hero {
+    background: #004d40; 
+    text-align: center;
+    padding: 80px 20px;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #b2dfdb; 
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background: #004d40; 
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #00332e; 
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.features {
+    padding: 60px 20px;
+    background: #fff;
+}
+
+.features .container {
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 40px;
+    font-size: 2em;
+    color: #004d40; 
+}
+
+.feature {
+    margin: 20px 0;
+}
+
+.feature-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #00796b; 
+}
+
+footer {
+    background: #00796b; 
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.products {
+    padding: 60px 20px;
+    background: #f5f5f5;
+}
+
+.products .container {
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 40px;
+    font-size: 2em;
+    color: #004d40;
+}
+
+.product {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #00796b;
+}
+
+.product p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.product .cta-button {
+    background: #004d40;
+}
+
+.product .cta-button:hover {
+    background: #00332e;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    color: #fff;
+    background: #004d40;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #004d40;
+    transition: background 0.3s, transform 0.3s;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background: #00332e;
+    transform: translateY(-3px);
+}
+
+.cta-button:active {
+    background: #00221c;
+    transform: translateY(0);
+}
