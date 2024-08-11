@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right, #2196F3, #64B5F6);
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .header {
+    margin-top: 80px; /* Adjust as needed */
+  }
+  
+  .theme-selector {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .input-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin: 0 auto;
+  }
+  
+  .input-button-container input {
+    flex-grow: 1;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .input-button-container button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  li.completed .task-text {
+    text-decoration: line-through !important;
+  }
+  
+  .task-text {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  button.check, button.delete {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  
+  #typewriter {
+    font-size: 3rem;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(30, end), blink 0.5s infinite alternate;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  
+ 
+  
+  
